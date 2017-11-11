@@ -74,7 +74,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Rearch Projects</h2>
+            <h2 class="section-heading text-uppercase">Research Projects</h2>
             <h3 class="section-subheading text-muted"></h3>
           </div>
         </div>
@@ -159,21 +159,21 @@
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-3">
             <div class="resume-content mr-auto">
-              <h5><a class="txt-dec-none" href="https://www.dropbox.com/s/bbsezwe1zhmtn9z/Preprint_Planning%20on%20Searching%20Occluded%20Target%20Object%20with%20a%20Mobile%20Robot%20Manipulator.pdf?dl=0">Planning on Searching Occluded Target Object with a Mobile Robot Manipulator</a><a target="_blank" class="play-icon" href="https://youtu.be/8OUOmsjJe2Y"> <i class="fa fa-youtube-play" aria-hidden="true"></i></a></h5>
+              <h5><a class="txt-dec-none" href="https://www.dropbox.com/s/7ug8dbcazd355je/planning_on_searching_occluded_target.pdf?dl=0">Planning on Searching Occluded Target Object with a Mobile Robot Manipulator</a><a target="_blank" class="play-icon" href="https://youtu.be/8OUOmsjJe2Y"> <i class="fa fa-youtube-play" aria-hidden="true"></i></a></h5>
               <p class="gray"><strong>Yu-Chi Lin</strong>, Shao-Ting Wei, Shih-An Yang and Li-Chen Fu<br/>
                 IEEE International Conference on Robotics and Automation (ICRA), 2015. </p>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-3">
             <div class="resume-content mr-auto">
-              <h5><a class="txt-dec-none" href="https://www.dropbox.com/s/9inod1fh05xoexf/Grasping%20Unknown%20Objects%20Using%20Depth%20Gradient_CASE_final.pdf?dl=0">Grasping Unknown Objects Using Depth Gradient Feature with Eye-In-Hand RGB-D Sensor</a><a target="_blank" class="play-icon" href="https://youtu.be/hcPqMakO-RI"> <i class="fa fa-youtube-play" aria-hidden="true"></i></a></h5>
+              <h5><a class="txt-dec-none" href="https://www.dropbox.com/s/1c28coai3ercn3c/grasping_unknown_objects_using_depth_gradient_feature_with_eye_in_hand_rgbd_sensor.pdf?dl=0">Grasping Unknown Objects Using Depth Gradient Feature with Eye-In-Hand RGB-D Sensor</a><a target="_blank" class="play-icon" href="https://youtu.be/hcPqMakO-RI"> <i class="fa fa-youtube-play" aria-hidden="true"></i></a></h5>
               <p class="gray"><strong>Yu-Chi Lin</strong>, Shao-Ting Wei and Li-Chen Fu<br/>
                 IEEE International Conference on Automation Science and Engineering (CASE), 2014. </p>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-3">
             <div class="resume-content mr-auto">
-              <h5><a class="txt-dec-none" href="https://www.dropbox.com/s/tk8vq7bmw16ggq7/Grasping%20the%20object%20with%20collision%20avoidance%20of%20wheeled%20mobile%20manipulator%20in%20dynamic%20environments.pdf?dl=0">Grasping the object with collision avoidance of wheeled mobile manipulator in dynamic environments</a></h5>
+              <h5><a class="txt-dec-none" href="https://www.dropbox.com/s/t8eecoglw7332k3/grasping_the_object_with_collision_avoidance_of_wheeled_mobile_manipulator_in_dynamic_environments.pdf?dl=0">Grasping the object with collision avoidance of wheeled mobile manipulator in dynamic environments</a></h5>
               <p class="gray">Pei-Wen Wu, <strong>Yu-Chi Lin</strong>, Chia-Ming Wang, and Li-Chen Fu<br/>
                 IEEE International Conference on Intelligent Robots and Systems (IROS), 2013. </p>
             </div>
@@ -237,12 +237,14 @@
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Humanoid Navigation Planning using Previous Experience</h2>
                   <img class="img-fluid d-block mx-auto" src="img/projects/prev_experience.png" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
+                  <p align="justify">
+                      We propose a humanoid robot navigation planning framework that reuses previous experience to decrease planning time. The framework is intended for navigating complex unstructured environments using both palm and foot contacts. In a complex environment, discrete-search-based contact space planners trade-off between high branching factor and action flexibility. Although approaches such as weighted A*, ARA* and ANA* could speed up the search by compromising on optimality, they can be very slow when the heuristic is inaccurate. In the proposed framework, an experience-retrieval module is added in parallel to ANA*. This module collects previously-generated motion plans and clusters them based on contact pose similarity to form a motion plan library. To retrieve an appropriate plan from the library for a given environment, the framework uses a distance between the contact poses in the plan and environment surfaces. Candidate plans are then modified with local trajectory optimization until a plan fitting the query environment is found. Our experiments show that the proposed framework outperforms planning-from-scratch in success rate in unstructured environments by at least 28% and can navigate difficult environments such as rubble and narrow corridors.
+                  </p>
+                  <!-- <ul class="list-inline">
                     <li>Date: January 2017</li>
                     <li>Client: Threads</li>
                     <li>Category: Illustration</li>
-                  </ul>
+                  </ul> -->
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
                     Close Project</button>
@@ -268,15 +270,19 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2 class="text-uppercase">Learning Humanoid Traversability</h2>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/learning_traversability.png" alt="">
+                  <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
+                  <p align="justify">
+                      We explore discrete search-based contact space planning for humanoids using both palm and foot contact in complex unstructured environments. With a high branching factor and sparse contactable regions, it is challenging for the planner to find a contact sequence in such environments quickly. Therefore, we propose to learn a function which predicts traversability---a measure of how quickly the contact space planner can generate contact sequences to traverse a certain region. By including a learned traversability estimate into the heuristic function of the contact space planner, we can bias the planner to search the areas with more contactable regions, and thus find contact sequences more efficiently. In this paper we propose and evaluate two kinds of feature vectors for estimating traversability: Exact Contact Checking (ECC) and Approximate Contact Checking (ACC), which make different trade-offs between speed and accuracy. 
+                      The experimental results show that the proposed approach using ACC outperforms both ECC and the baseline heuristic for contact space planning; ACC increases the planning success rate by 19% and reduces average planning time by 24% compared to the baseline in difficult environments with uneven terrain.          
+                  </p>
+                  <!-- <ul class="list-inline">
                     <li>Date: January 2017</li>
                     <li>Client: Explore</li>
                     <li>Category: Graphic Design</li>
-                  </ul>
+                  </ul> -->
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
                     Close Project</button>
@@ -302,15 +308,20 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
+                  <h2 class="text-uppercase">Mobile Manipulator Motion Planning</h2>
+                  <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                  <img class="img-fluid d-block mx-auto" src="img/projects/mobile_manip_planning.png" alt="">
+                  <p align="justify">
+                      We proposed an object search planner based on A* search algorithm with tree node sampling. The proposed approach combines visual and arm manipulation search. In other words, the robot searches occluded target object by either repositioning one of the accessible object with its arm or moving its platform to view the environment from a different pose. We evaluate the proposed approach with experiment performed by real robot in the scenario which objects may occlude or block access to one another.
+                  </p>
+                  <p align="justify">
+                    In addition, we also proposed an algorithm for a mobile manipulator to reach target and avoid collision simultaneously. The algorithm utilizes potential fields to guide the local motion of the manipulator, detects possible cases when a local minimum is encountered, and escape local minimum with predefined strategies corresponding to each case. 
+                  </p>
+                  <!-- <ul class="list-inline">
                     <li>Date: January 2017</li>
                     <li>Client: Finish</li>
                     <li>Category: Identity</li>
-                  </ul>
+                  </ul> -->
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
                     Close Project</button>
