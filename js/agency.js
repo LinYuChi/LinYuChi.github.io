@@ -28,11 +28,12 @@
 
   // Collapse Navbar
   var navbarCollapse = function() {
-      $("#mainNav").addClass("navbar-shrink");
+    $("#mainNav").addClass("navbar-shrink");
   };
+
   // Collapse now if page is not at top
   navbarCollapse();
-  
+
   // Hide navbar when modals trigger
   $('.portfolio-modal').on('show.bs.modal', function(e) {
     $(".navbar").addClass("d-none");
