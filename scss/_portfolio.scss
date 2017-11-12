@@ -83,6 +83,12 @@
   }
 }
 
+@media(max-width:767px) {
+.video iframe {
+    height: 200px;
+  }
+}
+
 .portfolio-modal {
   padding-right: 0px !important;
   .modal-dialog {
@@ -114,6 +120,9 @@
     }
     button {
       cursor: pointer;
+    }
+    .resume-item {
+      text-align: left;
     }
   }
   .close-modal {

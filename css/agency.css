@@ -260,6 +260,10 @@ a:hover {
   #portfolio .portfolio-item {
     margin: 0 0 30px; } }
 
+@media (max-width: 767px) {
+  .video iframe {
+    height: 200px; } }
+
 .portfolio-modal {
   padding-right: 0px !important; }
   .portfolio-modal .modal-dialog {
@@ -285,6 +289,8 @@ a:hover {
       margin-bottom: 30px; }
     .portfolio-modal .modal-content button {
       cursor: pointer; }
+    .portfolio-modal .modal-content .resume-item {
+      text-align: left; }
   .portfolio-modal .close-modal {
     position: absolute;
     top: 25px;
